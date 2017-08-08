@@ -73,6 +73,7 @@ if (deploy){
             room = null
             version = canaryVersion
             console = fabric8Console
+            timeoutTime = 10
             environment = 'Stage'
           }
         }
